@@ -1,0 +1,53 @@
+{% include "header.html" %}
+{% from "bootstrap5/form.html" import render_form %}
+
+<h1> Todos </h1>
+
+<!--todo list-->
+<ul>
+{% for t in detail %}
+  <li class="py-3">
+
+        <a href="{{url_for('completed',id=t.id)}}" >
+           done
+        </a>
+        <p style="display:inline; padding-left: 10px;">
+        {{ t.task }} </p>
+     {% if not t.schedule %}
+       <span class="due_time"> No due time </span>
+     {% else %}
+        <span class="due_time"> {{t.schedule}} </span>
+        <span class="due_time"> {{t.time}} </span>
+     {% endif %}
+   </li>
+     <a href="{{url_for('delete',id=t.id)}}" >
+           delete
+     </a>
+{% endfor %}
+</ul>
+
+<!--add button-->
+<div class="container">
+   <a href="{{ url_for('task') }}" type="button" class="btn btn-primary">+ Add Task</a>
+</div>
+
+<!--completed tasks-->
+<ul>
+{% for t in completed_task %}
+  <li class="py-3">
+        <p class="cut_text" style="display:inline; padding-left: 10px;">
+        {{ t.task }} </p>
+     {% if not t.schedule %}
+       <span class="due_time"> No due time </span>
+     {% else %}
+        <span class="due_time"> {{t.schedule}} </span>
+        <span class="due_time"> {{t.time}} </span>
+     {% endif %}
+      <a href="{{url_for('delete',id=t.id)}}" >
+           delete
+     </a>
+   </li>
+{% endfor %}
+</ul>
+
+{% include "footer.html" %}

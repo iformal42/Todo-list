@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>TODO LIST</title>
+    {% block style %}
+    {{ bootstrap.load_css() }}
+    <style>
+      .due_time{
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 7px;
+        background: #eee;
+        border: 1px solid transparent;
+        color: #666;
+        white-space: nowrap;
+        display: inline-block;
+        border-radius: 12px;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+      .cut_text{
+            text-decoration: line-through;
+            font-style: italic;
+          }
+    </style>
+     {% endblock %}
+  </head>
+  <body>
+    <div class="bg-dark">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+      </div>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
+    </header>
+  </div>
+

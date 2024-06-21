@@ -1,0 +1,7 @@
+flask
+bootstrap-flask
+wtforms
+flask_wtf
+flask_sqlalchemy==3.1.1
+SQLAlchemy==2.0.25
+psycopg2
