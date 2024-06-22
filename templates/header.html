@@ -29,6 +29,14 @@
             text-decoration: line-through;
             font-style: italic;
           }
+       .right{
+            position: relative;
+            left: 100%;
+        }
+      .flash{
+            font-style: oblique;
+            color: red;
+           }
     </style>
      {% endblock %}
   </head>
@@ -42,8 +50,18 @@
       </div>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
+        {% if not login %}
+        <a href="{{url_for('login')}}">
+          <button type="button" class="btn btn-outline-primary me-2">Login </button>
+        </a>
+        <a href="{{url_for('signup')}}">
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </a>
+        {% else %}
+        <a href="{{url_for('logout')}}">
+          <button type="button" class="btn btn-primary">Logout</button>
+        </a>
+        {% endif %}
       </div>
     </header>
   </div>
