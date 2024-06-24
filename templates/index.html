@@ -8,7 +8,8 @@
 <ul>
 {% for t in detail %}
 
-  <li  class="border border-secondary-subtle shadow p-3 mb-1 bg-body-tertiary rounded ">
+
+    <li  class="border border-secondary-subtle shadow p-3 mb-2 bg-body-tertiary rounded  ">
     <form
             id="contactForm"
             name="sentMessage"
@@ -21,8 +22,13 @@
      {% if not t.schedule %}
        <span class="due_time"> No due time </span>
      {% else %}
-        <span class="due_time"> {{t.schedule}} </span>
-        <span class="due_time"> {{t.time}} </span>
+        {% set is_due_today = (current_date > t.schedule) or (current_date == t.schedule and current_time >= t.time) %}
+        {% if is_due_today %}
+            {{t.send_mail(t)}}
+        {% endif %}
+        <span class="due_time {{ 'due_today' if is_due_today }}"> {{ t.schedule }} </span>
+        <span class="due_time {{ 'due_today' if is_due_today }}"> {{ t.time }} </span>
+
      {% endif %}
         <a href="{{url_for('delete',id=t.id)}}" class="px-5  text-danger">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"

@@ -37,6 +37,10 @@
             font-style: oblique;
             color: red;
            }
+      .due_today{
+          background: red;
+          color: white;
+      }
     </style>
      {% endblock %}
   </head>
@@ -44,13 +48,17 @@
     <div class="bg-dark">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <div class="col-md-3 mb-2 mb-md-0">
-        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
           <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+           {% if  user.is_authenticated %}
+             <h3 class="text-light">{{user.name}}</h3>
+          {% endif %}
         </a>
       </div>
 
+
       <div class="col-md-3 text-end">
-        {% if not login %}
+        {% if not user.is_authenticated %}
         <a href="{{url_for('login')}}">
           <button type="button" class="btn btn-outline-primary me-2">Login </button>
         </a>
