@@ -73,7 +73,7 @@ class Tasks(db.Model):
                 )
             task.is_mail_send = True
             db.session.commit()
-            return "done"
+            return ""
         else:
             return ""
 
