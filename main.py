@@ -69,7 +69,7 @@ class Tasks(db.Model):
                     to_addrs=task.user.email,
                     msg=f"Subject:Todo is due \n\n "
                         f"Your task '{task.task}' is due. Please complete as soon as possible.  "
-                        f"\n Check other todos here https://flask.io "
+                        f"\n Check other todos here https://todo-list-sn98.onrender.com "
                 )
             task.is_mail_send = True
             db.session.commit()
