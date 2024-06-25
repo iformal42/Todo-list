@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97329ce4-0ecf-49ce-8fde-0a096c0aaf9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DAY67(BLOG API)/todo list/todo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WATER MARK/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WATER MARK/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WATER MARK/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WATER MARK/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WATER MARK/te.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Typing master/content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Typing master/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY28/.idea/DAY28.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY28/.idea/DAY28.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY28/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY28/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY28/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY28/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY64(TOP_MOVIES)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY64(TOP_MOVIES)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY68(AUTHENTICATION)/instance/posts.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY68(AUTHENTICATION)/instance/posts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY69(full blog)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY69(full blog)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY69(full blog)/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY69(full blog)/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY71(deployement)/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY71(deployement)/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY71(deployement)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY71(deployement)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY71(deployement)/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY71(deployement)/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY71(deployement)/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY71(deployement)/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY71(deployement)/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY71(deployement)/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAY83(MORSE CODE)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DAY83(MORSE CODE)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TIC TAC TOE/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TIC TAC TOE/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../accademic project/The_game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../accademic project/The_game/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fccollage/collage" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fccollage/collage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fccollage/collage-web" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fccollage/collage-web" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mario/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mario/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mario/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mario/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mario/academic-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mario/academic-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ml.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2i5wxseEuRRi5IrKJNlP3wZdyuH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/niyam/Desktop/100 python/professional projects/TODO LIST"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\niyam\Desktop\100 python\professional projects\TODO LIST" />
+      <recent name="C:\Users\niyam\Desktop\100 python\professional projects" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="TODO LIST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DATABASE" value="postgresql://postgres:root123@localhost/pycharm" />
+        <env name="EMAIL" value="faizan222w@gmail.com" />
+        <env name="FLASK_KEY" value="asdfghjk" />
+        <env name="PASSWORD" value="axdxmsxggppwiixs" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97329ce4-0ecf-49ce-8fde-0a096c0aaf9a" name="Changes" comment="" />
+      <created>1718793995645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718793995645</updated>
+    </task>
+    <servers />
+  </component>
+</project>
